@@ -12,9 +12,9 @@ My website should be able to:
 
 1. Website loads but nothing works in my javascript - fixed
 2. Website loads but nothing happens - fixed
-3. Error in console when you try to add a book
+3. Error in console when you try to add a book - fixed
 4. It uses the title name as the author name - fixed
-5. Delete button is broken
+5. Delete button is broken - fixed
 6. When I add a book that I say I've read - it saves the wrong answer - fixed
 
 I think there are other some other small bugs in my code...but I'm lazy so I can't fix them all.

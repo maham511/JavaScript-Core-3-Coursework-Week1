@@ -1,8 +1,3 @@
-//2 orignal books n info render.
-//delete buttons not working
-//submit function alerts for empty fields, but not rendering
-
-console.log("hi");
 
 let myLibrary = [];
 
@@ -47,7 +42,7 @@ function submit() {
     alert("Please fill all fields!");
     return false;
   } else {
-    let book = new Book(title.value, author.value, pages.value, check.checked); //change one title.value to author.value
+    let book = new Book(title.value, author.value, pages.value, check.checked); //changed one title.value to author.value
     myLibrary.push(book);
     render();
   }
@@ -104,7 +99,7 @@ function render() {
     cell5.appendChild(delButton);
     delButton.className = "btn btn-warning";
     delButton.innerHTML = "Delete";
-    delButton.addEventListener("clicks", function () {
+    delButton.addEventListener("click", function () {
       alert(`You've deleted title: ${myLibrary[i].title}`);
       myLibrary.splice(i, 1);
       render();
